@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Club Atlético y Cultural Argentino</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: rgb(72, 123, 190); 
+        }
+        header {
+            background-color: white;
+        }
+        header div {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+        nav ul {
+            list-style: none;
+            padding: 15px;
+            display: flex;
+            justify-content: center;
+            background-color: rgb(72, 123, 190);
+        }
+        nav ul li {
+            margin: 0 10px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+        section {
+            padding: 20px;
+            margin: 20px;
+            background-color: white;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            background-color: rgb(72, 123, 190);
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+        footer img {
+            width: 30px;
+            height: auto;
+            margin: 0 10px;
+        }
+        table {
+            width: 100%;
+            margin-bottom: 20px;
+        }
+        table img {
+            width: 300px;
+        }
+        table td {
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header id="up">
+        <div style="justify-content: left;">
+            <a href="index.html" style="font-size: 15px;" id="up">Home</a>
+            >>
+            <a href="cayca.html" style="font-size: 15px;">Club Atlético y Cultural Argentino</a>
+        </div>
+        <div style="background-color: white; color: rgb(72, 123, 190)">
+            <img src="recursos/logocayca.png" alt="Logo de Cayca" style="width: 100px; height: auto; margin-right: 20px;">
+            <h1 style="margin: 0; text-align: center;">Club Atlético y Cultural Argentino</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#fundacion">Historia</a></li>
+                <li><a href="#deportes">Deportes</a></li>
+                <li><a href="#ubicacion">Ubicación</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="fundacion">
+        <h2 style="color: rgb(72, 123, 190);">Fundación</h2>
+        <div style="display: flex; flex-direction: column; align-items: center;">
+            <img src="recursos/cayca.antigua.jpeg" alt="Historia de Cayca" style="max-width: 50%; height: auto; margin-bottom: 20px;">
+            <p>El 1 de agosto del año 1920, nacía sobre la calle 32 n°750, el amado Club Atlético y Cultural Argentino, que en el día de su fundación fue bautizado con el nombre de Football Club Argentino.</p>
+        </div>
+    </section>
+
+    <section id="deportes">
+        <h2 style="color: rgb(72, 123, 190);">Deportes que Ofrecemos</h2>
+        <table>
+            <tr>
+                <td>
+                    <img src="recursos/cayca.basquet.jpeg" alt="Basquet">
+                    <p>Basquet</p>
+                </td>
+                <td>
+                    <img src="recursos/cayca.cestoball.jpeg" alt="Cestoball">
+                    <p>Cestoball</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <img src="recursos/cayca.futbolfemenino.jpeg" alt="Fútbol Femenino">
+                    <p>Fútbol Femenino</p>
+                </td>
+                <td>
+                    <img src="recursos/cayca.futbolinfantil.jpeg" alt="Fútbol Infantil">
+                    <p>Fútbol Infantil</p>
+                </td>
+            </tr>
+        </table>
+    </section>
+
+    <section id="ubicacion">
+        <h2 style="color: rgb(72, 123, 190);">Ubicación</h2>
+        <div style="text-align: center;">
+            <div id="wrapper-9cd199b9cc5410cd3b1ad21cab2e54d3">
+                <div id="map-9cd199b9cc5410cd3b1ad21cab2e54d3"></div>
+                <script>(function () {
+                    var setting = {"query":"Club Atlético y Cultural Argentino, Calle 32, General Pico, La Pampa, Argentina","width":740,"height":468,"satellite":false,"zoom":17,"placeId":"ChIJzRv1JF59w5UR3p1ip0Aj6dA","cid":"0xd0e92340a7629dde","coords":[-35.6551965,-63.7470662],"lang":"es","queryString":"Club Atlético y Cultural Argentino, Calle 32, General Pico, La Pampa, Argentina","centerCoord":[-35.6551965,-63.7470662],"id":"map-9cd199b9cc5410cd3b1ad21cab2e54d3","embed_id":"986309"};
+                    var d = document;
+                    var s = d.createElement('script');
+                    s.src = 'https://1map.com/js/script-for-user.js?embed_id=986309';
+                    s.async = true;
+                    s.onload = function (e) {
+                        window.OneMap.initMap(setting)
+                    };
+                    var to = d.getElementsByTagName('script')[0];
+                    to.parentNode.insertBefore(s, to);
+                })();</script>
+                <a href="https://1map.com/es/map-embed">1 Map</a>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contacto">
+        <p>¡Seguinos en nuestras redes sociales!</p>
+        <div>
+            <img src="recursos/facebook-icon.png" alt="Facebook">
+            <img src="recursos/twitter-icon.png" alt="Twitter">
+            <img src="recursos/instagram-icon.png" alt="Instagram">
+            <img src="recursos/youtube-icon.png" alt="Youtube">
+            <img src="recursos/tiktok-icon.png" alt="Tiktok">
+            <img src="recursos/twitch-icon.png" alt="Twitch">
+        </div>
+    </footer>
+    <div align="right">
+        <a href="#up"><img src="recursos/up.png" style="width: 35px;"></a>
+    </div>
+</body>
+</html>
